@@ -1,13 +1,19 @@
+name: environment
+channels:
+  - conda-forge
 dependencies:
   - python=3
+  - numpy
+  - pip
   - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
     - spacy
     - ipykernel
     - scipy
-    - numpy
     - scikit-learn
-    - matplotlib
-    - pandas
     - thinc
     - tqdm
     - sklearn
